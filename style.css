@@ -1,0 +1,185 @@
+#titulo {
+    color : blueviolet;
+    font-size: 36px;
+    background: rgba(0, 176, 192,0.3) url(sources/dog0.png) repeat-x center top / contain;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px #0ab;
+}
+.texto {
+    margin: 1px 10px 10px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a03;
+    background-color: rgba(0, 176, 192,0.3);
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #0ab;
+    border-radius: 5px;
+    text-align: justify;
+}
+.texto img{
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+}
+.texto p{
+    padding: 30px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.texto td:hover{
+    background-color: rgba(0, 176, 192,0.6);
+}
+.texto table{
+    border-collapse: collapse;
+}
+.image p{
+    padding-left: 50px;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: yellowgreen;
+}
+a:active{
+    color: #a03;
+}
+#sectionlist li{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+header{
+    background-color:#0ab;
+    padding: 1rem;
+}
+body{
+    margin: 0;
+}
+footer{
+    background-color: #558;
+    padding: 2rem;
+    color: #fff;
+}
+footer #ftlink{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a:link{
+    color: #fff;
+}
+footer a:visited{
+    color: darkblue;
+}
+footer a:hover{
+    color: yellow;
+}
+footer a:active{
+    color: red;
+}
+* {
+    font-size: 24px;
+}
+/*
+CSS:
+    SELECTORES:
+        element { }                         style for element
+        #id { }                             style for elements with same id
+        .class { }                          style for elements with same class
+        element.class { }                   style for element with class
+        element element { }                 style for element with element
+        element, element { }                style for two elements
+        * { }                               style for all (only change the defaults)
+    COLORS:
+        aquamarine;                         color list
+        #rgb;                               RGB color (0-f)
+        #rrggbb;                            Hex color (00-ff)
+        rgb(255,255,255)                    RGB color (0-255)
+        rgba(255,255,255,1)                 RPB+alpha (0-255)
+    unidades de medida:
+            px, cm, mm, in(pulg), pt(pulg/72), pc(12pt), em(font size), rem(basefont size)
+    
+    BORDERS:
+        border:
+            5px color type;
+                type:   solid, dotted, dashed, double, (groove, ridge, inset, outset), none, hidden
+        border-style: type;                     
+        border-color: color;
+        border-radius: 5px;                     circle corner
+        border-width: 5px;                      grosor
+    
+    BACKGROUND:
+        background-color: color;                background col of element
+        opacity: 1;                             opacity of element (0-1)
+        background-image: url('url');           background image of element
+        height: 500px;                          height of element
+        background-size: type;                  size of img
+            type: auto, cover(adjust as web width), contain(adjust as web height), 100px 100px (w,h)
+        background-repeat: type;                type of image repeat
+            type: no-repeat, repeat-x, repeat-y, 
+        background-position: type;              where image is positioned
+            type: pos pos (x,y), 0px 0px (x,y)
+        background: style;                      simple way to style background
+            background: color image repeat position / size
+        
+    BOX MODEL:
+        margin: size;                           size of space out the element
+            size: allpx, up rgh,  up rgh dwn lft
+        outline: 1px;                               post border
+        border: size  color type;               border around the element
+        padding: size;                          size of space into the element
+            size: allpx,    up rgh dwn lft
+        overflow: type;                         if content outside element can be showed
+            type: visible, hidden, scroll
+    TEXT STYLE:
+        text-align: pos;                            text align
+            pos: left, right, justify(lf-rgt)
+        text-decoration: decoration;                text decoration
+            deco: none, underline, line-through, overline
+        text-shadow: size;                           text shadow
+            size: Xpx Ypx BLRpx color;
+    CUSTOM FONT:
+        font-size: 20px;
+        font-family: font, font, font;           choose fonts which will replace the last
+            font: defaults, GoogleFonts > font > select > copy > <head/>
+    LINK STATE:
+        a:link {}                               not visited link
+        a:visited {}                            visited link
+        a:hover {}                              mouse on link
+        a:active {}                             click on link
+    LISTS:
+        list-style-type: type;
+        list-style-position: position;
+        padding-left: 0;
+    TABLES:
+        border: type 0px color;                 border of table
+        border-collapse: collapse;              collapse
+        th-tr-td -> hover
+        tr:nth-child(even/odd) {}               select a part of table
+    DISPLAY:
+        <div> default: block
+        <span> default: inline
+        display: block/inline/inlineblock;                  is writed next line/is writed next to/is writed next line(can be edited with heigth
+    max-width: max;                             max width of element
+    POSITION:
+        position: pos;                          where is must be on page
+            relative;   (placed relative as it must to be)
+            fixed;      (placed as screen pixel)
+            absolute;   (placed relative as the parent)
+            sticky;     (placed relative-fixed)
+        left:/ right:/ top:/ bottom:           space placed
+    FLOAT
+        float: pos;                             the pos of element
+            pos: left, right
+    STATES ANIMATION:
+        transition: base-state 1s mode;         transition from state to this
+            mode: ease, linear, ...
+        cursor: pointer;                        hand
+*/
